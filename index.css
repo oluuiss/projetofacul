@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1920;
+    width: 1080;
+}
+
+.ampla2 {
+    height: 9vh;
+    width: auto;
+}
+
+
+.top {
+    margin-left: 35vh;
+    margin-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    margin-top: 5vh;
+    font-size: 2vh;
+    letter-spacing: 3px;
+}
+
+.form h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fill {
+    letter-spacing: 0;
+    font-size: 3vh;
+    width: 50vh;
+    letter-spacing: 2px;
+    margin-top: 3vh;
+    color: 	rgb(0,91,150);
+}
+
+.calendario {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#calendary {
+    height: 6vh;
+}
+
+.parcela {
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#maquininha {
+    height: 6vh;
+}
+
+.forms {
+    margin-top: 3vh;
+    display: absolute;
+}
+
+#nome {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#nome::placeholder {
+    position: absolute;
+    left: 20px;
+}
+
+#whatsapp {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#whatsapp::placeholder {
+    position: absolute;
+    left: 20px;
+}
+
+#email {
+    width: 50vh;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#email::placeholder {
+    position: absolute;
+    left: 20px;
+}
+
+
+
+
+#hot {
+    color: rgb(0,91,150);
+    text-shadow: black 0px 0px 30px;
+}
